@@ -5,8 +5,10 @@ Returns: an integer
 def single_number(arr):
     # Your code here
 
-    pass
-
+    for elem in arr: # n elements
+        if arr.count(elem) == 1: # n elements again
+            return elem
+# total = n + n = n^2 ?
 
 if __name__ == '__main__':
     # Use the main function to test your implementation
